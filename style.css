@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   outline: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .calc_body {
@@ -19,4 +22,29 @@
   border-radius: 8px 8px 0 0;
   padding: 20px;
   font-size: 2.5rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.buttons button {
+  padding: 30px;
+  font-size: 1.5rem;
+  border: none;
+  transition: 0.2s all linear;
+}
+
+.buttons button:hover {
+  background-color: #e0e0e0;
+  transition: 0.3s;
+}
+
+.buttons button:active {
+  background-color: #bdbdbd;
+}
+
+.equal {
+  background-color: #f57f17;
 }
