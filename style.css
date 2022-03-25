@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #212121;
+}
+
 .calc_body {
   position: absolute;
   left: 50%;
